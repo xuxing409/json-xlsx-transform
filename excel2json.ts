@@ -31,8 +31,6 @@ sheetsData.forEach((item: string[], index: Number) => {
   }
 });
 
-// console.log(sheets);
-
 for (const filename of Object.keys(files)) {
   // 导出json文件
   fs.writeFileSync(
