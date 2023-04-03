@@ -1,5 +1,5 @@
 {
-  "name": "exporti18ntoexcel",
+  "name": "json-xlsx-transform",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
