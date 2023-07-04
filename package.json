@@ -4,19 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "excel2json": "'ts-node' excel2json.ts",
-    "json2excel": "ts-node json2excel.ts",
+    "excel2json": "ts-node ./src/excel2json.ts",
+    "json2excel": "ts-node ./src/json2excel.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node-xlsx": "^0.21.0",
-    "json2xls": "^0.1.2",
+    "@types/node": "^20.3.3",
     "ts-node": "^10.9.1",
     "typescript": "^5.0.3"
   },
   "dependencies": {
-    "node-xlsx": "^0.21.0"
+    "xlsx": "^0.18.5"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "include": ["src/**/*", "json2excel.ts", "excel2json.ts"],
+  "include": ["src/**/*", "src/json2excel.ts", "src/excel2json.ts"],
   "compilerOptions": {
     "declaration": true, // 生成 d.ts
     "resolveJsonModule": true, // 处理json导入问题
