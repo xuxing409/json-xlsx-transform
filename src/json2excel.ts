@@ -45,7 +45,7 @@ function autoLoadFile(
   return res;
 }
 // 自动获取同目录下的json文件夹下的json文件
-const fileList = autoLoadFile(path.join(__dirname, "./i18n"), true, [".json"]);
+const fileList = autoLoadFile(path.join(__dirname, "./source"), true, [".json"]);
 
 let data: any = []; // 需要的数据格式: [{zh: "我是中文", en: "i am chinese"}]
 fileList.forEach((_, i) => {
