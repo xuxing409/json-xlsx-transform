@@ -4,7 +4,7 @@ import fs from "fs";
 import path from "path";
 
 const workbook = XLSX.readFile(
-  path.join(__dirname, "./source/国际化(MES前端)-EN 20230705.xlsx")
+  path.join(__dirname, "./source/国际化-翻译版.xlsx")
 );
 
 const worksheet = workbook.Sheets[workbook.SheetNames[0]];
